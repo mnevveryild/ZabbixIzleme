@@ -1,7 +1,10 @@
 # VMware Üzerinde Zabbix ile Sunucu İzleme Projesi
 
 Bu proje, VMware üzerinde kurulan sanal makinelerin **Zabbix** izleme sistemi ile nasıl izlenebileceğini adım adım göstermektedir.  
-Proje kapsamında VMware üzerinde Linux tabanlı bir sanal makine kurulmuş ve Zabbix Agent ile Zabbix Server entegrasyonu sağlanmıştır.
+Proje kapsamında VMware üzerinde Linux tabanlı üç ayrı sanal makine kurulmuş ve Zabbix Agent ile Zabbix Server entegrasyonu sağlanmıştır. Böylece uzaktan sunucuların hareketleri ve durumları takip edilmiştir.
+Aynı zamanda bazı triggerlar girilerek uyarılar verilmesi istenmiştir. Örneği CPU kullanımı %80 nin üstüne çıkarsa WARNING uyarısı verilmesi gibi.
+
+Projenin devamında bilgi güvenliği kapsamında güvenlik duvarını kullanarak parola, hatalı giriş denemesi gibi bazı güvenlik ayarları da yapılmıştır.
 
 ---
 
@@ -45,14 +48,17 @@ sudo systemctl start zabbix-agent
 ![VMware Kurulum](images/vmware_setup.png)
 ![Zabbix Host Ekleme](images/zabbix_host_add.png)
 ![Zabbix Dashboard](images/zabbix_dashboard.png)
+![Zabbix İzleme](images/zabbix_izleme.png)
 
 ---
 
 ## 🛠 Kullanılan Teknolojiler
-- VMware Workstation 16
-- Ubuntu Server 22.04
+- VMware Workstation 17
+- Ubuntu 24
+- Ubuntu 22.04
+- Windows Server 2019
 - Zabbix Agent 6.x
-- Zabbix Server 6.x
+
 
 ---
 
