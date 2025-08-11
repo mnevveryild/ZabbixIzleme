@@ -45,10 +45,10 @@ sudo systemctl start zabbix-agent
 ## 📷 Ekran Görüntüleri
 > Aşağıdaki görseller, kurulum ve izleme sürecini göstermektedir.
 
-![VMware Kurulum](images/vmware_setup.png)
-![Zabbix Host Ekleme](images/zabbix_host_add.png)
-![Zabbix Dashboard](images/zabbix_dashboard.png)
-![Zabbix İzleme](images/zabbix_izleme.png)
+![VMware Kurulum](images/vmware_setup.png.png)
+![Zabbix Host Ekleme](images/zabbix_host_add.png.png)
+![Zabbix Dashboard](images/zabbix_dashboard.png.png)
+![Zabbix İzleme](images/zabbix_izleme.png.png)
 
 ---
 
